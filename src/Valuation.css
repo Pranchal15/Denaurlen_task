@@ -1,0 +1,99 @@
+.valuation-container {
+  margin: 0px;
+
+  padding: 10px;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0px;
+}
+
+.post-header {
+  display: grid;
+  grid-template-areas:
+    "profile-pic handle numberOfCoins growthArrow options"
+    "profile-pic timeOfPost grossCoins growthArrow options";
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 40px;
+  width: 100%;
+}
+.profile-pic {
+  grid-area: profile-pic;
+  border-radius: 50%;
+  width: 40px;
+
+  height: 40px;
+}
+.handle {
+  grid-area: handle;
+}
+.timeOfPost {
+  grid-area: timeOfPost;
+}
+.numberOfCoins {
+  grid-area: numberOfCoins;
+}
+.grossCoins {
+  grid-area: grossCoins;
+}
+.growthArrow {
+  grid-area: growthArrow;
+}
+.options {
+  grid-area: options;
+}
+.post-image img {
+  width: 100%;
+  height: auto;
+}
+.likes-row {
+    font-family: 'Inter';
+  display: flex;
+  justify-content: space-between;
+}
+.lead-button{
+    border-radius: 5px;
+    background: #4B0082;
+    font-size: 20px;
+    color: white;
+    border: none;
+    box-shadow: none;
+    padding: 3px;
+}
+.interested-row{
+    font-family: 'Inter';
+}
+.timer-row{
+    display: grid;
+    grid-template-areas: "another-profile-pic netcoins netcoins timer"
+    "another-profile-pic bottom-username bottom-username timer";
+    padding-top: 20px;
+  width: 100%; 
+}
+.another-profile-pic {
+    grid-area: another-profile-pic;
+    border-radius: 50%;
+  width: 40px;
+
+  height: 40px;
+}
+.netcoins{
+    display: flex;
+    gap:5px;
+    flex-direction: row;
+    grid-area: netcoins;
+    /* height: 20px; */
+}
+.timer{
+    grid-area: timer;
+    /* height: 20px; */
+}
+.bottom-username{
+    grid-area:bottom-username;
+    margin: 0px;
+}
