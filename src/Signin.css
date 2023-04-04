@@ -1,0 +1,42 @@
+.container{
+    text-align: center;
+    font-family: 'Roboto';
+    margin: 10px;
+}
+.title{
+    text-align: left;
+    margin: 5px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #000000;
+top: 34px;
+margin-bottom: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+.inputbox{
+    margin-top:20px;
+    border-radius: 5px;
+    border: 1px solid #B9B3B3;
+    margin: 5px;
+    width: 330px;
+    text-align: left;
+    padding: 3px;
+height: 44px;
+}
+.submit-button{
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #4B0082;
+    font-size: 16px;
+    color: white;
+    width: 330px;
+height: 44px;
+}
