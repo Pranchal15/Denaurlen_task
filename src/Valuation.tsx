@@ -30,21 +30,32 @@ export default function Valuation() {
         <div className="thunder"><AiOutlineThunderbolt/></div>
         <div className="comments"><FaRegComment/></div>
         <div className="share"><RiShareForwardLine/></div>
-        <div ><button className="lead-button">Lead +100</button></div>
+        <div ><button className="lead-button">Lead + 100 
+        <span className="UCoin">
+        U
+        </span>
+        </button></div>
       </div>
       <div className="interested-row">50 Interested</div>
       <div className="timer-row">
         <img className="another-profile-pic" src ="./profile_pic.jpg"></img>
         <div className="netcoins">
-          <div> i</div>
-          <div>1000</div>
-          <div>ar</div>
+          <div><BiCoinStack/></div>
+          <div>1100</div>
+          <div><HiTrendingUp/></div>
 
         </div>
-        <div className="bottom-username">Terry</div>
-        <div className="timer">TIMER</div>
+        <div className="bottom-username"><strong>terry_dias</strong> in Lead</div>
+        <div className="timer">
+          <span className="timer-comp">144</span> : 
+          <span className="timer-comp">00</span> : 
+          <span className="timer-comp">00</span>
+        </div>
       </div>
-      <div className="comment-row"></div>
+      <div className="comment-row"><strong>@alfredo</strong>
+    If everything seems under control, you're going fast enough. Be Fast, Be Curious..!
+
+      </div>
       </div>
     </div>
   );
