@@ -6,9 +6,6 @@ import {FaRegComment} from "react-icons/fa"
 import {AiOutlineThunderbolt} from "react-icons/ai"
 import {RiShareForwardLine} from "react-icons/ri"
 
-
-
-
 export default function Valuation() {
   return (
     <div className="valuation-container">
@@ -18,7 +15,7 @@ export default function Valuation() {
         <div className="handle">alfredo</div>
         <div className="timeOfPost"> 6 June</div>
         
-        <div className="numberOfCoins"><BiCoinStack/><strong>2100</strong></div>
+        <div className="numberOfCoins"><BiCoinStack color="gold"/><strong>2100</strong></div>
         <div className="grossCoins">Grooss</div>
         {/* <div className="growthArrow">arrow</div> */}
       <div className="growthArrow"><HiTrendingUp/>
@@ -40,7 +37,7 @@ export default function Valuation() {
       <div className="timer-row">
         <img className="another-profile-pic" src ="./profile_pic.jpg"></img>
         <div className="netcoins">
-          <div><BiCoinStack/></div>
+          <div><BiCoinStack color="gold"/></div>
           <div>1100</div>
           <div><HiTrendingUp/></div>
 
@@ -52,7 +49,7 @@ export default function Valuation() {
           <span className="timer-comp">00</span>
         </div>
       </div>
-      <div className="comment-row"><strong>@alfredo</strong>
+      <div className="comment-row"><strong>@alfredo </strong>
     If everything seems under control, you're going fast enough. Be Fast, Be Curious..!
 
       </div>
