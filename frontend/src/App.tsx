@@ -4,7 +4,7 @@ import {BrowserRouter,Route,Routes} from 'react-router-dom';
 import Signin from './Signin';
 import Valuation from './Valuation';
 
-function App() {
+const App: React.FC=()=> {
   return (
     <BrowserRouter>
       <Routes>

@@ -1,7 +1,6 @@
 .valuation-container {
   margin: 0px;
-
-  padding: 10px;
+  padding: 5px;
 }
 
 .post-container {
@@ -16,7 +15,6 @@
   grid-template-areas:
     "profile-pic handle numberOfCoins growthArrow options"
     "profile-pic timeOfPost grossCoins growthArrow options";
-
   padding-top: 10px;
   padding-bottom: 10px;
   height: 40px;
@@ -52,73 +50,72 @@
 .post-image img {
   width: 100%;
   height: auto;
+  padding: 0px;
 }
 .likes-row {
-  padding-top:10px;
-    font-family: 'Inter';
-    font-size: 30px;
+  padding-top: 10px;
+  font-family: "Inter";
+  font-size: 30px;
   display: flex;
   justify-content: space-between;
 }
-.lead-button{
-    border-radius: 5px;
-    background: #4B0082;
-    font-size: 20px;
-    color: white;
-    border: none;
-    box-shadow: none;
-    padding: 3px;
-    height: 40px;
-    width: 150px;
+.lead-button {
+  border-radius: 5px;
+  background: #4b0082;
+  font-size: 20px;
+  color: white;
+  border: none;
+  box-shadow: none;
+  padding: 3px;
+  height: 40px;
+  width: 150px;
 }
-.UCoin{
-  background: linear-gradient(180deg, #FF7D58 0%, #FFCC4B 100%);
+.UCoin {
+  background: linear-gradient(180deg, #ff7d58 0%, #ffcc4b 100%);
   border-radius: 50%;
   margin: 2px;
   font-size: large;
-  padding:5px;
+  padding: 5px;
 }
-.interested-row{
-    font-family: 'Inter';
+.interested-row {
+  font-family: "Inter";
 }
-.timer-row{
-    display: grid;
-    grid-template-areas: "another-profile-pic netcoins netcoins timer"
+.timer-row {
+  display: grid;
+  grid-template-areas:
+    "another-profile-pic netcoins netcoins timer"
     "another-profile-pic bottom-username bottom-username timer";
-    padding-top: 20px;
-  width: 100%; 
+  padding-top: 20px;
+  width: 100%;
 }
 .another-profile-pic {
-    grid-area: another-profile-pic;
-    border-radius: 50%;
+  grid-area: another-profile-pic;
+  border-radius: 50%;
   width: 40px;
-
   height: 40px;
 }
-.netcoins{
-    display: flex;
-    gap:5px;
-    flex-direction: row;
-    grid-area: netcoins;
-    /* height: 20px; */
+.netcoins {
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+  grid-area: netcoins;
 }
-.timer{
-    grid-area: timer;
-    /* height: 20px; */
+.timer {
+  grid-area: timer;
 }
-.timer-comp{
+.timer-comp {
   padding: 5px;
   width: 30px;
-height: 30px;
+  height: 30px;
 
-background: #ECE6F0;
-border-radius: 2.80499px;
+  background: #ece6f0;
+  border-radius: 2.80499px;
 }
-.bottom-username{
-    grid-area:bottom-username;
-    margin: 0px;
+.bottom-username {
+  grid-area: bottom-username;
+  margin: 0px;
 }
-.comment-row{
+.comment-row {
   margin: 10px;
-  padding:2px;
+  padding: 2px;
 }
